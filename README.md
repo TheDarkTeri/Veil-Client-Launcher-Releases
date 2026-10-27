@@ -35,15 +35,18 @@ it. Until the launcher is signed, you can still play with the mod jar from
 - **Installs everything for you:** Minecraft 1.8.9 from Mojang, Forge 1.8.9, Java 8 (Eclipse Temurin) and the
   newest Veil Client.
 - **Keeps Veil updated.** Every time you press Play it checks for a new Veil release and swaps it in.
-- **Stays separate** from your normal `.minecraft`: everything lives in `%APPDATA%\.veilclient`. Use the **Mods**
-  button to add other 1.8.9 Forge mods, such as OptiFine.
+- **Stays separate** from your normal `.minecraft`: everything lives in `%APPDATA%\.veilclient`.
+- **Makes OptiFine easy.** Settings → **Mods** opens the official OptiFine download page and adds the jar you
+  downloaded with **Add mod…**. That button works for other 1.8.9 Forge mods too. OptiFine isn't included in the
+  launcher, because its license only allows downloading it from optifine.net.
 - **Gets out of the way.** The launcher hides while you play and comes back when you close the game.
 
 ## Updating
 
 - **Veil** updates by itself when you press Play.
-- **The launcher:** download the newer installer from Releases and run it. It updates in place and keeps your login
-  and settings.
+- **The launcher** updates itself from version 0.3.0 on: it downloads new versions in the background, then installs
+  them when you click **Update ready · Restart** or close the launcher. On 0.2.0, download the newest installer from
+  Releases and run it once; your login and settings are kept.
 
 ## Uninstalling
 
