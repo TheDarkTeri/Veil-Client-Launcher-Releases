@@ -31,7 +31,8 @@ it. Until the launcher is signed, you can still play with the mod jar from
 ## What it does
 
 - **Signs you in with Microsoft.** Your login is saved encrypted on your PC (Windows DPAPI) and is only ever sent
-  to Microsoft and Mojang.
+  to Microsoft and Mojang. Veil's online features check who you are with keys Mojang signs, so your login never
+  goes to Veil.
 - **Installs everything for you:** Minecraft 1.8.9 from Mojang, Forge 1.8.9, Java 8 (Eclipse Temurin) and the
   newest Veil Client.
 - **Keeps Veil updated.** Every time you press Play it checks for a new Veil release and swaps it in.
@@ -39,7 +40,16 @@ it. Until the launcher is signed, you can still play with the mod jar from
 - **Makes OptiFine easy.** Settings → **Mods** opens the official OptiFine download page and adds the jar you
   downloaded with **Add mod…**. That button works for other 1.8.9 Forge mods too. OptiFine isn't included in the
   launcher, because its license only allows downloading it from optifine.net.
-- **Gets out of the way.** The launcher hides while you play and comes back when you close the game.
+- **Friends and messages.** The **Friends** page shows your Veil friends and whether they're online, in game or
+  on a server, lets you chat with them, and answers friend requests. When a message or invite arrives and the
+  launcher isn't in front, Windows shows a notification.
+- **Play and join.** When a friend invites you, or is playing on a server, **Play and join** starts Minecraft and
+  connects straight to that server.
+- **Gets out of the way.** The launcher hides while you play and comes back when you close the game; the Veil icon
+  in the notification area (next to the clock) brings it back anytime.
+
+Friends, messages and invites go through the Veil server. What it stores, and how to get it deleted, is in
+[Online features and your data](https://github.com/TheDarkTeri/Veil-Client-Releases#online-features-and-your-data).
 
 ## Updating
 
